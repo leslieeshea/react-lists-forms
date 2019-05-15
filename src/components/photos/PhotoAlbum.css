@@ -1,0 +1,26 @@
+.PhotoAlbum {
+  padding: 1rem;
+  margin: auto;
+
+  h2 {
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+
+  li {
+    height: 10rem;
+  }
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+}
