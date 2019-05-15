@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders an App 1`] = `
+<Fragment>
+  <Header />
+  <Colors
+    colors={
+      Array [
+        Object {
+          "blue": 182,
+          "green": 168,
+          "hex": "#ffa8b6",
+          "name": "Pink",
+          "red": 255,
+        },
+        Object {
+          "blue": 255,
+          "green": 172,
+          "hex": "#30acff",
+          "name": "Blue",
+          "red": 48,
+        },
+        Object {
+          "blue": 211,
+          "green": 255,
+          "hex": "#edffd3",
+          "name": "Light Green",
+          "red": 237,
+        },
+      ]
+    }
+  />
+</Fragment>
+`;
