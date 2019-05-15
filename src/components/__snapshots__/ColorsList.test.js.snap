@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorsList component renders a list of colors 1`] = `
+<ul>
+  <li
+    key="Blue-#0000FF"
+  >
+    <Color
+      blue={255}
+      green={0}
+      hex="#0000FF"
+      name="Blue"
+      red={0}
+    />
+  </li>
+  <li
+    key="Blue-#FF0000"
+  >
+    <Color
+      blue={0}
+      green={0}
+      hex="#FF0000"
+      name="Blue"
+      red={255}
+    />
+  </li>
+</ul>
+`;
