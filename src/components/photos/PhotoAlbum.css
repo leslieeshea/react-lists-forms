@@ -12,11 +12,13 @@
   ul {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     list-style-type: none;
   }
 
   li {
-    height: 10rem;
+    height: 12rem;
+    padding-bottom: 2rem;
   }
 
   img {
