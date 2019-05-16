@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextFormatter component renders the TextFormatter 1`] = `
+<Fragment>
+  <select
+    name="font"
+    onChange={[Function]}
+    value="Ghost"
+  >
+    <option
+      key="Ghost"
+      value="Ghost"
+    >
+      Ghost
+    </option>
+    <option
+      key="Stacey"
+      value="Stacey"
+    >
+      Stacey
+    </option>
+    <option
+      key="Bear"
+      value="Bear"
+    >
+      Bear
+    </option>
+    <option
+      key="Tinker-Toy"
+      value="Tinker-Toy"
+    >
+      Tinker-Toy
+    </option>
+  </select>
+  <input
+    name="text"
+    onChange={[Function]}
+    value=""
+  />
+  <input
+    name="color"
+    onChange={[Function]}
+    type="color"
+    value="black"
+  />
+  <pre
+    style={
+      Object {
+        "color": "black",
+      }
+    }
+  />
+</Fragment>
+`;
