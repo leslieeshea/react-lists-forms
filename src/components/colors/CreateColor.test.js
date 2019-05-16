@@ -16,4 +16,11 @@ describe('CreateColor component', () => {
 
     expect(wrapper.state('name')).toEqual('Red');
   });
+
+  it('updates color on change', () => {
+    const wrapper = shallow(<CreateColor addColor={jest.fn()} />);
+    wrapper.find('[name="color"]').at(0).simulate('change', {
+      target: { name: 'color', value: '#FF0000' }
+    });
+  });
 });
